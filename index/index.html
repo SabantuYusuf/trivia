@@ -5,10 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>trivia</title>
     <link rel="stylesheet" type="text/css" href="../stylesheet/style.css">
-    <script defer src="../javaScript/app.js"></script>
+    <!-- <script defer src="../javaScript/index.js"></script>
+    <script defer src="../javaScript/data.js"></script> -->
 </head>
 <body>
     <h1>Welcome to Trivia</h1>
+
+    <div class="qPanel1">
+        <div id="question"></div>
+
+        <div><input type="radio" id="incorrect" name=options>
+            <span id="incorrect"></span>
+        </div>
+
+        <div><input type="radio" id="incorrect" name=options>
+            <span id="correct"></spana>
+        </div>
+
+        <button onclick="checkAnswer()">next</button>
+    </div>
+    <script src="../javaScript/data.js"></script>
+    <script src="../javaScript/index.js"></script>
     
 </body>
 </html>
